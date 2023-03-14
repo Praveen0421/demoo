@@ -10,203 +10,335 @@
 </head>
 
 <body>
-    <!-- start main-container -->
-    <div class="main-container">
-
-        <!-- start header -->
-        <header>
-            <!-- start nav -->
-            <nav class="nav-block">
-                <div class="brand-block">
-                    <img class="brand-img" src="images/Branding.png" alt="brand">
-                    <label class="lab" for="check"><img class="avtar-btn" src="images/Avatar.png" alt="avtar"></label>
-                    <input type="checkbox" id="check">
-                    <div class="nav-profile-option">
-                        <span><img src="images/user.png" alt="user">Profile</span>
-                        <span><img src="images/layout-grid.png" alt="layout">Edit Profile</span>
-                        <span><img src="images/Settings.png" alt="Setting">Setting</span>
-                        <span><img src="images/logout.png" alt="">Logout</span>
+    <div class="container">
+        <!-- sidebar -->
+        <input type="checkbox" id="check">
+        <section class="sidebar">
+            <!--start menu section -->
+            <div class="scroll-sidebar">
+                <!-- brand -->
+                <div class="menu-content">
+                    <div class="brand-hambar">
+                        <label class="label" for="check">
+                            <img class="bar" src="images/462023-200.png" alt="hambar">
+                        </label>
+                        <img class="brand" src="images/Branding.png" alt="Branding">
                     </div>
-                </div>
-                <div class="search">
-                    <img src="images/Union.png" alt="search-icon" class="search-icon">
-                    <input class="search-input" type="text" placeholder="Search...">
-                </div>
-            </nav>
-            <!-- end nav -->
-        </header>
-        <!-- end header  -->
 
-        <!-- start banner -->
-        <section class="banner">
-            <div class="banner-block">
-                <h3 class="banner-title">Unlock premium stats</h3>
-                <p class="banner-para">Get up to 10TB of storage for a limited time</p>
+                    <!--start menu -->
+                    <div class="menu">
+                        <!-- start dashboard -->
+                        <section class="dashboard-section">
+                            <!-- dash header -->
+                            <span class="dash-sec-title">
+                                <p>DASHBOARD</p>
+                            </span>
+                            <!--start dashboard content -->
+                            <div class="dash-content">
+                                <!-- star dash box -->
+                                <div class="dash-box">
+                                    <div class="dash-select">
+                                        <div class="dash">
+                                            <img src="images/Stats.png" alt="stats">
+                                            <span class="select-heading">Dashboard</span>
+                                        </div>
+                                        <img class="vector-icon" src="images/Vector.png" alt="vector">
+                                    </div>
+                                    <div class="dash-list">
+                                        <span class="list-item list-item1">Analytics</span>
+                                        <span class="list-item">Finance</span>
+                                        <span class="list-item">Job Board</span>
+                                    </div>
+                                </div>
+                                <!--end dasboard box -->
+
+                                <!-- start message -->
+                                <div class="dash-option">
+                                    <div class="dash-select">
+                                        <div class="dash">
+                                            <img src="images/Union2.png" alt="message">
+                                            <span class="select-heading select-heading2">Messages</span>
+                                        </div>
+                                        <img class="vector-icon" src="images/chevron-down.png" alt="chevron-down">
+                                    </div>
+                                </div>
+                                <!-- end message -->
+
+                                <!-- start friends -->
+                                <div class="dash-option">
+                                    <div class="dash-select">
+                                        <div class="dash">
+                                            <img src="images/user.png" alt="user">
+                                            <span class="select-heading select-heading2">Friends</span>
+                                        </div>
+                                        <img class="vector-icon" src="images/chevron-down.png" alt="chevron-down">
+                                    </div>
+                                </div>
+                                <!-- end friends -->
+
+                                <!-- start apps-->
+                                <div class="dash-option">
+                                    <div class="dash-select">
+                                        <div class="dash">
+                                            <img src="images/layout-grid.png" alt="layout grid">
+                                            <span class="select-heading select-heading2">Apps</span>
+                                        </div>
+                                        <img class="vector-icon" src="images/chevron-down.png" alt="chevron-down">
+                                    </div>
+                                </div>
+                                <!-- end apps -->
+                            </div>
+                        </section>
+                        <!-- end dashboard -->
+
+                        <!-- start page -->
+                        <section class="pages-section">
+                            <span class="dash-sec-title">
+                                <p>PAGE</p>
+                            </span>
+                            <div class="page-content">
+                                <!-- start friends -->
+                                <div class="dash-option">
+                                    <div class="dash-select">
+                                        <div class="dash">
+                                            <img src="images/Support.png" alt="support">
+                                            <span class="select-heading select-heading2">Help Center</span>
+                                        </div>
+                                        <img class="vector-icon" src="images/chevron-down.png" alt="chevron-down">
+                                    </div>
+                                </div>
+                                <!-- end friends -->
+
+                                <!-- start apps-->
+                                <div class="dash-option">
+                                    <div class="dash-select">
+                                        <div class="dash">
+                                            <img src="images/Folder.png" alt="folder">
+                                            <span class="select-heading select-heading2">File Manager</span>
+                                        </div>
+                                        <img class="vector-icon" src="images/chevron-down.png" alt="chevron-down">
+                                    </div>
+                                </div>
+                                <!-- end apps -->
+                            </div>
+                        </section>
+                        <!-- end page -->
+                    </div>
+                    <footer class="menu-footer">
+                        <a href="#" title="Setting"><img src="images/Settings.png" alt="seting icon"></a>
+                        <a href="#" title="Logout"><img src="images/logout.png" alt=" logout icon"></a>
+                        <a href="#" title="Globe"><img src="images/globe.png" alt=" globe icon"></a>
+                    </footer>
+                </div>
             </div>
-            <button class="upgrade-btn"><img class="btn-img" src="images/bolt2.png" alt="bolt"><span
-                    class="btn-text">Upgrade</span></button>
         </section>
-        <!-- end banner -->
+        <!-- start main-container -->
+        <div class="main-container">
 
-        <!-- metric card  -->
-        <div class="metric-cards">
-            <!-- card1 -->
-            <section class="metric-card">
-                <header class="card-title">Revenue</header>
-                <span class="num-text">$56,945</span>
-                <div class="inc-block">
-                    <div class="rate plus-rate">+45</div>
-                    <span class="inc-by">From 4.6</span>
-                </div>
-            </section>
+            <!-- start header -->
+            <header>
+                <!-- start nav -->
+                <nav class="nav-block">
+                    <div class="brand-block">
+                        <div class="brand-bar">
+                            <label class="label" for="check"><img class="hambar" src="images/462023-200.png"
+                                    alt="hambar"></label>
+                            <img class="brand-img" src="images/Branding.png" alt="brand">
 
-            <!-- card2 -->
-            <section class="metric-card">
-                <header class="card-title">Users</header>
-                <span class="num-text">76.8%</span>
-                <div class="inc-block">
-                    <div class="rate neg-rate">+45</div>
-                    <span class="inc-by">From 4.6</span>
-                </div>
-            </section>
-
-            <!-- card3 -->
-            <section class="metric-card">
-                <header class="card-title">New Signups</header>
-                <span class="num-text">116</span>
-                <div class="inc-block">
-                    <div class="rate no-rate">0.00</div>
-                </div>
-            </section>
-
-            <!-- card4 -->
-            <section class="metric-card">
-                <header class="card-title">Retention</header>
-                <span class="num-text">12.67%</span>
-                <div class="inc-block">
-                    <div class="rate plus-rate">+45</div>
-                    <span class="inc-by">From 4.6</span>
-                </div>
-            </section>
-        </div>
-        <!-- end metric card -->
-
-        <!--start performance section -->
-        <section class="performance-section">
-            <header class="perf-header">
-                <h4 class="perf-title">Performance</h4>
-                <img src="images/Dots Vertical.png" alt="vertical dots">
+                        </div>
+                        <div class="search-laptop">
+                            <img src="images/Union.png" alt="search-icon" class="search-icon">
+                            <input class="search-input" type="text" placeholder="Search...">
+                        </div>
+                        <div class="action-btn">
+                            <img src="images/Icon Indicator.png" alt="bell icon">
+                            <img src="images/calendar.png" alt="calender">
+                            <img src="images/layout-grid.png" alt="app">
+                        </div>
+                        <img class="avtar-btn" src="images/Avatar.png" alt="avtar">
+                    </div>
+                    <div class="search">
+                        <img src="images/Union.png" alt="search-icon" class="search-icon">
+                        <input class="search-input" type="text" placeholder="Search...">
+                    </div>
+                </nav>
+                <!-- end nav -->
             </header>
-            <img class="graph" src="images/Axis.png" alt="graph">
-            <div class="per-block">
-                <div class="of-perf instagram">
-                    <img src="images/Color.png" alt="blue-dot">
-                    <span class="perf-text">Instagram</span>
-                </div>
-                <div class="of-perf facebook">
-                    <img src="images/Color2.png" alt="green-dot">
-                    <span class="perf-text">Facebook</span>
+            <!-- end header  -->
+            <!-- main section -->
+            <div class="main-section">
+                <!-- start banner -->
+                <div>
+                    <section class="banner">
+                        <div class="banner-block">
+                            <h3 class="banner-title">Unlock premium stats</h3>
+                            <p class="banner-para">Get up to 10TB of storage for a limited time</p>
+                        </div>
+                        <button class="upgrade-btn"><img class="btn-img" src="images/bolt2.png" alt="bolt"><span
+                                class="btn-text">Upgrade</span></button>
+                    </section>
+                    <!-- end banner -->
+
+                    <!-- metric card  -->
+                    <div class="metric-cards">
+                        <!-- card1 -->
+                        <section class="metric-card">
+                            <header class="card-title">Revenue</header>
+                            <span class="num-text">$56,945</span>
+                            <div class="inc-block">
+                                <div class="rate plus-rate">+45</div>
+                                <span class="inc-by">From 4.6</span>
+                            </div>
+                        </section>
+
+                        <!-- card2 -->
+                        <section class="metric-card">
+                            <header class="card-title">Users</header>
+                            <span class="num-text">76.8%</span>
+                            <div class="inc-block">
+                                <div class="rate neg-rate">+45%</div>
+                                <span class="inc-by">From 4.6</span>
+                            </div>
+                        </section>
+
+                        <!-- card3 -->
+                        <section class="metric-card">
+                            <header class="card-title">New Signups</header>
+                            <span class="num-text">116</span>
+                            <div class="inc-block">
+                                <div class="rate no-rate">0.00</div>
+                            </div>
+                        </section>
+
+                        <!-- card4 -->
+                        <section class="metric-card">
+                            <header class="card-title">Retention</header>
+                            <span class="num-text">12.67%</span>
+                            <div class="inc-block">
+                                <div class="rate plus-rate">+45%</div>
+                                <span class="inc-by">From 4.6</span>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- end metric card -->
+
+                    <!--start performance section -->
+                    <section class="performance-section">
+                        <header class="perf-header">
+                            <h4 class="perf-title">Performance</h4>
+                            <img src="images/Dots Vertical.png" alt="vertical dots">
+                        </header>
+                        <img class="graph" src="images/Axis.png" alt="graph">
+                        <div class="per-block">
+                            <div class="of-perf instagram">
+                                <img src="images/Color.png" alt="blue-dot">
+                                <span class="perf-text">Instagram</span>
+                            </div>
+                            <div class="of-perf facebook">
+                                <img src="images/Color2.png" alt="green-dot">
+                                <span class="perf-text">Facebook</span>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- end performance section -->
+                    <!-- start install section -->
+                    <section class="intall-section">
+                        <header class="install-header">
+                            <span class="header-title">Installed apps</span>
+                            <button class="dot-action-btn"><img src="images/Dots Vertical.png"
+                                    alt="Vertical three dot"></button>
+                        </header>
+                        <!-- start table -->
+                        <div class="scroll-h">
+
+                            <table class="table">
+
+                                <tr class="table-heading">
+                                    <td class="table-data">Source</td>
+                                    <td class="table-data">Amount</td>
+                                    <td class="table-data">Status</td>
+                                    <td class="table-data">User ID</td>
+                                    <td class="table-data">Joined</td>
+                                    <td class="table-data">Group</td>
+                                </tr>
+
+
+                                <!-- row1 -->
+                                <tr class="table-row">
+                                    <td class="table-data app-name">
+                                        <span class="app-name-icon"><img src="images/zeplin.png" alt="">Zippline</span>
+                                    </td>
+                                    <td class="table-data">686.00</td>
+                                    <td class="table-data"><span class="status-data">Active</span></td>
+                                    <td class="table-data">114423</td>
+                                    <td class="table-data">October</td>
+                                    <td class="table-data">Design</td>
+                                </tr>
+                                <!-- row2 -->
+                                <tr class="table-row">
+                                    <td class="table-data app-name">
+                                        <span class="app-name-icon"><img src="images/figma-1.png" alt="">Figma</span>
+                                    </td>
+                                    <td class="table-data">686.00</td>
+                                    <td class="table-data">Active</td>
+                                    <td class="table-data">114423</td>
+                                    <td class="table-data">October</td>
+                                    <td class="table-data">Design</td>
+                                </tr>
+                                <!-- row3 -->
+                                <tr class="table-row">
+                                    <td class="table-data app-name">
+                                        <span class="app-name-icon"><img src="images/meta-1.png" alt="">Meta</span>
+                                    </td>
+                                    <td class="table-data">686.00</td>
+                                    <td class="table-data"><span class="status-data">Active</span></td>
+                                    <td class="table-data">114423</td>
+                                    <td class="table-data">October</td>
+                                    <td class="table-data">Design</td>
+                                </tr>
+                                <!-- row4 -->
+                                <tr class="table-row">
+                                    <td class="table-data app-name">
+                                        <span class="app-name-icon"><img src="images/angular-icon.png"
+                                                alt="">Angular</span>
+                                    </td>
+                                    <td class="table-data">686.00</td>
+                                    <td class="table-data"><span class="status-data">Active</span></td>
+                                    <td class="table-data">114423</td>
+                                    <td class="table-data">October</td>
+                                    <td class="table-data">Design</td>
+                                </tr>
+                                <!-- row5 -->
+                                <tr class="table-row">
+                                    <td class="table-data app-name">
+                                        <span class="app-name-icon"><img src="images/vue-9.png" alt="">Vue</span>
+                                    </td>
+                                    <td class="table-data">686.00</td>
+                                    <td class="table-data"><span class="status-data">Active</span></td>
+                                    <td class="table-data">114423</td>
+                                    <td class="table-data">October</td>
+                                    <td class="table-data">Design</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!-- end table -->
+                        <footer>
+                            <div class="pages">
+                                <img src="images/arrow-left.png" alt="arrow-left">
+                                <span class="page-num">1/15</span>
+                                <img src="images/arrow-right.png" alt="arrow-right">
+                            </div>
+
+                        </footer>
+                    </section>
+                    <!-- end install section -->
                 </div>
             </div>
-        </section>
-        <!-- end performance section -->
-        <!-- start table -->
-        <section class="installed-app-table">
-            <div class="section-header">
-                <span class="section-heading">Installed apps</span>
-                <a href="#" class="vertical-dot" title="More"><img src="images/Dots Vertical.png"
-                        alt="Dots Vertical"></a>
-            </div>
-
-            <section class="table-content-pagination">
-                <div class="table">
-                    <div class="table-header">
-                        <span class="table-heading">Source</span>
-                        <span class="table-heading">Amount</span>
-                        <span class="table-heading">Status</span>
-                        <span class="table-heading">User ID</span>
-                        <span class="table-heading">Joined</span>
-                        <span class="table-heading">Group</span>
-                    </div>
-                    <div class="table-row">
-                        <span class="source-content">
-                            <div class="app-box"><img src="images/zeplin.png" alt="zepplin"></div>
-                            <span class="app-name">Zepplin</span>
-                        </span>
-                        <span class="table-amount row-text">686.00</span>
-                        <span class="table-status row-text">Active</span>
-                        <span class="user-id row-text">114423</span>
-                        <span class="joined row-text">October</span>
-                        <span class="group row-text">Design</span>
-                    </div>
-
-                    <!-- row2 -->
-
-                    <div class="table-row">
-                        <span class="source-content">
-                            <div class="app-box"><img src="images/figma-1.png" alt="figma"></div>
-                            <span class="app-name">Figma</span>
-                        </span>
-                        <span class="table-amount row-text">864.00</span>
-                        <span class="table-status row-text row-text2">Pending</span>
-                        <span class="user-id row-text">76223</span>
-                        <span class="joined row-text">June</span>
-                        <span class="group row-text">Finance</span>
-                    </div>
-                    <!-- row3 -->
-
-                    <div class="table-row">
-                        <span class="source-content">
-                            <div class="app-box"><img src="images/meta-1.png" alt="meta"></div>
-                            <span class="app-name">Meta</span>
-                        </span>
-                        <span class="table-amount row-text">176.00</span>
-                        <span class="table-status row-text row-text3">Cancelled</span>
-                        <span class="user-id row-text">89453</span>
-                        <span class="joined row-text">March</span>
-                        <span class="group row-text">Coding</span>
-                    </div>
-
-                    <!-- row4 -->
-
-                    <div class="table-row">
-                        <span class="source-content">
-                            <div class="app-box"><img src="images/angular-icon.png" alt="angular"></div>
-                            <span class="app-name">Angular</span>
-                        </span>
-                        <span class="table-amount row-text">49.00</span>
-                        <span class="table-status row-text">Active</span>
-                        <span class="user-id row-text">11467</span>
-                        <span class="joined row-text">February</span>
-                        <span class="group row-text">Marketing</span>
-                    </div>
-
-                    <!-- row5 -->
-
-                    <div class="table-row">
-                        <span class="source-content">
-                            <div class="app-box"><img src="images/vue-9.png" alt="vue"></div>
-                            <span class="app-name">Vue</span>
-                        </span>
-                        <span class="table-amount row-text">999.00</span>
-                        <span class="table-status row-text">Active</span>
-                        <span class="user-id row-text">67385</span>
-                        <span class="joined row-text">October</span>
-                        <span class="group row-text">Finance</span>
-                    </div>
-
-                </div>
-
-            </section>
-            <div class="page">
-                <a href="#"><img src="images/arrow-left.png" alt="arrow-left"></a>
-                <span class="page-num">1/15</span>
-                <a href="#"><img src="images/arrow-right.png" alt="arrow-right"></a>
-            </div>
-        </section>
-        <!-- end table -->
+            <!-- end section -->
+        </div>
+        <!-- end main-container -->
     </div>
-    <!-- end main-container -->
+
 </body>
 
 </html>
